@@ -1,0 +1,37 @@
+body{
+ 
+    background-color: blueviolet;
+
+}
+
+.card{
+
+display: flex;
+ flex-wrap: wrap;
+
+justify-content: flex-start; 
+align-content: flex-end;
+gap:10px;
+
+
+}
+
+.child{
+    flex-basis: 200px;
+    text-align: center;
+    background-color: aliceblue;
+    /* height: 350px; */
+    /* width: 300px;
+    border: 20px; */
+
+}
+
+
+button{
+ 
+    background-color: cyan;
+}
+
+img{
+   width: 100px; 
+}
